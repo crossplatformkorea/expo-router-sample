@@ -1,0 +1,9 @@
+{
+  "extends": "expo/tsconfig.base",
+  "jsx": "react-jsx",
+  "compilerOptions": {
+    "typeRoots": [
+      "expo-router/ts-declarations"
+    ]
+  },
+}
