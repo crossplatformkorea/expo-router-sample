@@ -14,11 +14,11 @@ const SignIn = (): ReactNode => {
         <Icon name="chevron-left-light" size={24} />
       </TouchableOpacity>
       <View style={{height: 28}} />
-      <Text style={{fontSize: 24}}>Sign In</Text>
+      <Text style={{fontSize: 24}}>Sign Up</Text>
       <Button
         type="text"
-        text="Sign Up"
-        onPress={() => router.push('sign-up')}
+        text="Sign In"
+        onPress={() => router.push('sign-in')}
       />
     </SafeAreaView>
   );
