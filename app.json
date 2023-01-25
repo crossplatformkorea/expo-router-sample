@@ -5,7 +5,8 @@
     "scheme": "bacontext",
     "splash": {
       "image": "./splash.png",
-      "backgroundColor": "#1c2026"
+      "backgroundColor": "#fff",
+      "resizeMode": "contain"
     },
     "web": {
       "bundler": "metro"
