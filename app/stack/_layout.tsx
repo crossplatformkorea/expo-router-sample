@@ -17,12 +17,7 @@ function Navigator(): ReactElement {
         headerTintColor: theme.role.primary,
         header: Header,
       }}
-    >
-      <Stack.Screen name="screen1" />
-      <Stack.Screen name="screen2" />
-      <Stack.Screen name="screen3" />
-      <Stack.Screen name="screen4" />
-    </Stack>
+    />
   );
 }
 
