@@ -4,4 +4,6 @@
 
 You can try expo router samples on `stack`, `tabs` `drawer` and `navigation switching` as shown above.
 
+This has similar examples as [React Navigation Sample](https://github.com/hyochan/react-navigation-sample.git) for comparison.
+
 All thanks given to [EvanBacon](https://github.com/EvanBacon) for creating this 🎉
