@@ -2,9 +2,10 @@
   "recommendations": [
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
-    "graphql.vscode-graphql",
     "wix.vscode-import-cost",
-    "amatiasq.sort-imports",
-    "jpoissonnier.vscode-styled-components"
+    "aaron-bond.better-comments",
+    "styled-components.vscode-styled-components",
+    "vscode-icons-team.vscode-icons",
+    "formulahendry.auto-rename-tag",
   ]
 }
