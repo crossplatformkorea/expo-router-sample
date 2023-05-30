@@ -1,9 +1,8 @@
-import {SafeAreaView, Text, View} from 'react-native';
-
 import type {ReactNode} from 'react';
+import {SafeAreaView, Text, View} from 'react-native';
+import {TouchableOpacity} from 'react-native-gesture-handler';
 import {Button, Icon} from 'dooboo-ui';
 import {useRouter} from 'expo-router';
-import {TouchableOpacity} from 'react-native-gesture-handler';
 
 const SignIn = (): ReactNode => {
   const router = useRouter();

@@ -1,8 +1,8 @@
-import styled from '@emotion/native';
-import {Button} from 'dooboo-ui';
-import {useRouter} from 'expo-router';
 import React from 'react';
 import {View} from 'react-native';
+import styled from '@emotion/native';
+import {Button, useDooboo} from 'dooboo-ui';
+import {SplashScreen, useRouter} from 'expo-router';
 
 const Container = styled.View`
   flex: 1;
@@ -26,6 +26,11 @@ const ButtonWrapper = styled.View`
 
 function Intro(): React.ReactElement {
   const router = useRouter();
+  const {assetLoaded} = useDooboo();
+
+  if (!assetLoaded) {
+    return <SplashScreen />;
+  }
 
   return (
     <Container>

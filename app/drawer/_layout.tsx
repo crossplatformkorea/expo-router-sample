@@ -1,11 +1,10 @@
+import type {ReactElement, ReactNode} from 'react';
+import {ScrollView} from 'react-native';
+import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import type {DrawerContentComponentProps} from '@react-navigation/drawer';
 import {DrawerItem} from '@react-navigation/drawer';
 import {useRouter} from 'expo-router';
 import {Drawer} from 'expo-router/drawer';
-
-import type {ReactElement, ReactNode} from 'react';
-import {ScrollView} from 'react-native';
-import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
 function CustomDrawerContent({drawerPosition, navigation}: any): ReactElement {
   const insets = useSafeAreaInsets();

@@ -1,6 +1,7 @@
-import {useRouter} from 'expo-router';
 import type {ReactElement} from 'react';
 import {View} from 'react-native';
+import {useRouter} from 'expo-router';
+
 import Screen3 from '../../src/screens/Screen3';
 
 export default (): ReactElement => {

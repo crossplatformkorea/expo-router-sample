@@ -1,10 +1,11 @@
-import type {BottomTabNavigationProp} from '@react-navigation/bottom-tabs';
-import {Image, View} from 'react-native';
-import React from 'react';
 import type {ReactElement} from 'react';
-import {IC_MASK} from '../../src/utils';
+import React from 'react';
+import {Image, View} from 'react-native';
+import type {BottomTabNavigationProp} from '@react-navigation/bottom-tabs';
 import {Tabs} from 'expo-router';
+
 import Header from '../../src/uis/Header';
+import {IC_MASK} from '../../src/utils';
 
 export type BottomTabParamList = {
   default: undefined;

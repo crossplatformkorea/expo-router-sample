@@ -1,7 +1,8 @@
-import {useTheme} from 'dooboo-ui';
-import {Stack} from 'expo-router';
 import type {ReactElement} from 'react';
 import React from 'react';
+import {useTheme} from 'dooboo-ui';
+import {Stack} from 'expo-router';
+
 import Header from '../../src/uis/Header';
 
 function Navigator(): ReactElement {

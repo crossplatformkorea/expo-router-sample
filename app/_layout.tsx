@@ -1,11 +1,11 @@
 import type {ReactNode} from 'react';
+import {DoobooProvider} from 'dooboo-ui';
 import {Slot} from 'expo-router';
-import {ThemeProvider} from 'dooboo-ui';
 
 export default function RootLayout(): ReactNode {
   return (
-    <ThemeProvider>
+    <DoobooProvider>
       <Slot />
-    </ThemeProvider>
+    </DoobooProvider>
   );
 }

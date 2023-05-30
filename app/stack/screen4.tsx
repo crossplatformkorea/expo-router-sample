@@ -1,6 +1,7 @@
-import {useRouter} from 'expo-router';
 import type {ReactElement} from 'react';
 import {View} from 'react-native';
+import {useRouter} from 'expo-router';
+
 import Screen4 from '../../src/screens/Screen4';
 
 export default (): ReactElement => {
