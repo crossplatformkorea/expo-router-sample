@@ -10,7 +10,7 @@ const SignIn = (): ReactNode => {
   return (
     <SafeAreaView style={{flex: 1, marginHorizontal: 18, marginVertical: 12}}>
       <TouchableOpacity onPress={() => router.back()}>
-        <Icon name="chevron-left-light" size={24} />
+        <Icon name="CaretLeft" size={24} />
       </TouchableOpacity>
       <View style={{height: 28}} />
       <Text style={{fontSize: 24}}>Sign In</Text>

@@ -1,6 +1,6 @@
 import type {ReactElement} from 'react';
 import React from 'react';
-import {useTheme} from 'dooboo-ui';
+import {useTheme} from '@dooboo-ui/theme';
 import {Stack} from 'expo-router';
 
 import Header from '../../src/uis/Header';
