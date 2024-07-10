@@ -37,33 +37,33 @@ function Intro(): React.ReactElement {
       <ButtonWrapper>
         <View style={{marginTop: 8}} />
         <Button
-          testID="authStack"
+          onPress={() => router.push('/sign-in')}
           style={{
             marginBottom: 8,
           }}
-          onPress={() => router.push('/sign-in')}
+          testID="authStack"
           text="Switch Navigator"
         />
         <Button
-          testID="btnStack"
+          onPress={() => router.push('/stack')}
           style={{
             marginBottom: 8,
           }}
-          onPress={() => router.push('/stack')}
+          testID="btnStack"
           text="Stack Navigator"
         />
         <Button
-          testID="btnDrawer"
-          style={{marginBottom: 8}}
           onPress={() => router.push('/drawer')}
+          style={{marginBottom: 8}}
+          testID="btnDrawer"
           text="Drawer Navigator"
         />
         <Button
-          testID="btnTabs"
+          onPress={(): void => router.push('/tabs')}
           style={{
             marginBottom: 8,
           }}
-          onPress={(): void => router.push('/tabs')}
+          testID="btnTabs"
           text="BottomTab Navigator"
         />
       </ButtonWrapper>

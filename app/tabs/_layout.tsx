@@ -19,17 +19,17 @@ export type BottomTabNavigationProps<
   T extends keyof BottomTabParamList = 'default',
 > = BottomTabNavigationProp<BottomTabParamList, T>;
 
-const TabBarIcon = (focused: boolean): React.ReactElement => {
+function TabBarIcon(focused: boolean): React.ReactElement {
   return (
     <Image
+      source={IC_MASK}
       style={{
         width: focused ? 24 : 18,
         height: focused ? 24 : 18,
       }}
-      source={IC_MASK}
     />
   );
-};
+}
 
 function MaterialBottomTabNavigator(): ReactElement {
   return (

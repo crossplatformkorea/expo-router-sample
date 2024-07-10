@@ -1,8 +1,8 @@
+import type {ReactElement} from 'react';
+import React from 'react';
 import styled from '@emotion/native';
 import {Button} from 'dooboo-ui';
 import {useNavigation} from 'expo-router';
-import type {ReactElement} from 'react';
-import React from 'react';
 
 const Container = styled.View`
   flex: 1;

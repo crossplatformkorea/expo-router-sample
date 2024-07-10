@@ -1,5 +1,5 @@
-import React from 'react';
 import type {ReactElement} from 'react';
+import React from 'react';
 import styled from '@emotion/native';
 import {Button} from 'dooboo-ui';
 
@@ -22,7 +22,7 @@ function Page({onPress}: {onPress: () => void}): ReactElement {
   return (
     <Container>
       <StyledText testID="myText">Screen 1</StyledText>
-      <Button type="text" text="Screen 2" onPress={onPress} />
+      <Button onPress={onPress} text="Screen 2" type="text" />
     </Container>
   );
 }
