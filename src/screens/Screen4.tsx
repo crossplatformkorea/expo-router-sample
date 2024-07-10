@@ -1,7 +1,7 @@
-import styled from '@emotion/native';
-import {Button} from 'dooboo-ui';
 import type {ReactElement} from 'react';
 import React from 'react';
+import styled from '@emotion/native';
+import {Button} from 'dooboo-ui';
 
 const Container = styled.View`
   flex: 1;
@@ -21,7 +21,7 @@ function Page({onPress}: {onPress: () => void}): ReactElement {
   return (
     <Container>
       <StyledText testID="myText">Screen 4</StyledText>
-      <Button type="text" text="Screen 1" onPress={onPress} />
+      <Button onPress={onPress} text="Screen 1" type="text" />
     </Container>
   );
 }
